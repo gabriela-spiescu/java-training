@@ -14,7 +14,7 @@ public class DataStructures {
 	public void printEven() {
 		DataStructuresIterator iterator = this.new EvenIterator();
 		while (iterator.hasNext()) {
-			
+			System.out.println(iterator.next());
 		}
 		
 	}
@@ -33,7 +33,7 @@ public class DataStructures {
 		public Integer next() {
 			Integer retValue = Integer.valueOf(arrayOfInts[nextIndex]);
 			nextIndex +=2;
-			System.out.println(nextIndex);
+			//System.out.println(nextIndex);
 			return retValue;
 		}
 		

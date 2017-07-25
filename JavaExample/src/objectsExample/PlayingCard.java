@@ -25,7 +25,5 @@ public class PlayingCard {
 		this.rank = rank;
 		this.suit = suit;
 	}
-	
-	
 
 }
